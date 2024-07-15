@@ -11,6 +11,9 @@ body{
 .display-flex{
     display:flex;
 }
+.dark-1{
+    color:#131313;
+}
 .text-gray{
     color:#424242;
 }
@@ -20,14 +23,19 @@ body{
 .bg-color{
     background-color:rgba(255, 144, 14, 0.1);
 }
+.main-width{
+    max-width: 1440px;
+    margin:0 auto;
+}
 .btn-primary{
     background-color: #FF900E;
     color:white;
-    max-width: 380px;
+    max-width: 580px;
     padding: 10px 20px;
     height: 44px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 30px;
+    border: none;
 }
 
 /* header style */
@@ -74,6 +82,32 @@ body{
     
     
 }
+/* section-1 style */
+.section-1{
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+}
+.section-1-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:20px;
+    padding: 20px;
+    gap:20px;
+}
+.section-1-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+.features{
+    color:#FF900E
+}
+.section-1-subheading{
+    margin-bottom: 30px;
+}
+
+/* responsive media qurey */
 @media screen and (max-width: 576px) {
     /* For mobile screens */
     .navbar,.banner{
