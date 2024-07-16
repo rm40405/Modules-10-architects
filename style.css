@@ -141,6 +141,9 @@ body{
 
 
 }
+.section-2-head{
+    width:100%;
+}
 .section-2-image img{
     width: 100%;
 }
@@ -275,13 +278,25 @@ body{
         justify-content: center;
         align-items: center;
         margin: 0;
+        
     }
-    .section-2-container{
-        margin: 0;
-    }
+    
     .section-2-content{
         margin: 0 auto;
+        width: 80%;
+    }
+    .section-2-container{
+        margin: 0 auto;
         
+    }
+    .section-2-head{
+        width: 80%;
+        margin: 0 auto;
+        
+        
+    }
+    .section-2-heading ,.para{
+        width: 350px;
     }
     .btn{
 
@@ -299,9 +314,13 @@ body{
 .footer-content{
     margin:0;
     margin-top: 50px;
+    width:300px;
 }
 .footer-icon{
-    margin-top: 50px;
+    margin-top: 200px;
+}
+.footer-end{
+    
 }
 
 
